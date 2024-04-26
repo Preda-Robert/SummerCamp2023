@@ -1,0 +1,46 @@
+﻿@using SummerCamp.Models
+
+@model TeamViewModel
+
+<form id="myForm" asp-action="Edit" method="post" class="needs-validation" asp-controller="Team" novalidate>
+    <input asp-for="Id" hidden />
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NickName"></label>
+        <input asp-for="NickName" class="form-control" />
+        <span asp-validation-for="NickName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CoachId" class="control-label"></label>
+        @Html.DropDownList("CoachId", (IEnumerable<SelectListItem>) ViewData["TeamCoach"], "Select a coach", new { @class = "form-control" })
+        <span asp-validation-for="CoachId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TeamSponsors" class="control-label"></label>
+        @Html.DropDownList("TeamSponsors", (IEnumerable<SelectListItem>) ViewData["TeamSponsors"], "Select a sponsor", new { @class = "form-control" })
+        <span asp-validation-for="TeamSponsors" class="text-danger"></span>
+
+        <div class="form-group">
+            <label asp-for="SelectedPlayerIds" class="control-label">Players</label>
+            @{
+                var players = ViewData["Players"];
+                @foreach (var player in Model.Players)
+                {
+                    <div>
+                        <input type="checkbox" id="player@player.Value" name="SelectedPlayerIds" value="@player.Id" @(Model.SelectedPlayerIds != null && Model.SelectedPlayerIds.Contains(Convert.ToInt32(player.Id)) ? "checked" : "")>
+                        <label for="player@player.Value">@player.FullName</label>
+                    </div>
+                }
+            }
+            <span asp-validation-for="SelectedPlayerIds" class="text-danger"></span>
+        </div>
+
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>

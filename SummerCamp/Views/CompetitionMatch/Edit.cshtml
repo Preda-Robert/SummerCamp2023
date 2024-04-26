@@ -1,0 +1,39 @@
+﻿@using SummerCamp.Models
+
+@model CompetitionMatchViewModel
+
+<form id="myForm" asp-action="Edit" method="post" class="needs-validation" asp-controller="CompetitionMatch" novalidate>
+    <input asp-for="Id" class="form-control" hidden />
+    <input asp-for="CompetitionId" class="form-control" hidden />
+    @*<div class="form-group">
+        <label asp-for="CompetitionId" class="control-label"></label>
+        @Html.DropDownList("CompetitionId", (IEnumerable<SelectListItem>) ViewData["Competition"], "Select a competition", new { @class = "form-control" })
+        <span asp-validation-for="CompetitionId" class="text-danger"></span>
+    </div>*@
+
+    <div class="form-group">
+        <label asp-for="HomeTeamId" class="control-label"></label>
+        @Html.DropDownList("HomeTeamId", (IEnumerable<SelectListItem>) ViewData["Teams"], "Select a team", new { @class = "form-control" })
+        <span asp-validation-for="HomeTeamId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="HomeTeamGoals"></label>
+        <input asp-for="HomeTeamGoals" class="form-control" />
+        <span asp-validation-for="HomeTeamGoals" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="AwayTeamId" class="control-label"></label>
+        @Html.DropDownList("AwayTeamId", (IEnumerable<SelectListItem>) ViewData["Teams"], "Select a team", new { @class = "form-control" })
+        <span asp-validation-for="AwayTeamId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="AwayTeamGoals"></label>
+        <input asp-for="AwayTeamGoals" class="form-control" />
+        <span asp-validation-for="AwayTeamGoals" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>

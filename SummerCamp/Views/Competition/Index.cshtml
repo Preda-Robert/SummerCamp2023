@@ -1,0 +1,65 @@
+﻿@using SummerCamp.Models
+@model IEnumerable<CompetitionViewModel>
+@{
+    ViewData["Title"] = "Competition";
+}
+<h1 class="centered-title">Competition</h1>
+<a asp-controller="Competition" asp-action="Add" class="btn btn-primary">Add competition</a>
+<div class="text-center">
+    <div class="table-responsive">
+        <table class="table table-bordered table-condensed table-striped table-hover sortable">
+            @if (Model.Count() == 0)
+            {
+                <tr>
+                    <td colspan="6">No Records found.</td>
+                </tr>
+            }
+            else
+            {
+                <thead class="thead-dark">
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model.StartDate)</th>
+                        <th>@Html.DisplayNameFor(model => model.EndDate)</th>
+                        <th>Name</th>
+                        <th>NumbersOfTeams</th>
+                        <th>Address</th>
+                        <th>Sponsor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.StartDate.Date.ToShortDateString()</td>
+                            <td>@item.EndDate.Date.ToShortDateString()</td>
+                            <td>@item.Name</td>
+                            <td>@item.NumbersOfTeams</td>
+                            <td>@item.Address</td>
+                            @if (@item.SponsorId != null)
+                            {
+                                <td>@item.SponsorId</td>
+                            }
+                            else
+                            {
+                                <td>No sponsor</td>
+                            }
+
+                            <td>
+                                <a asp-action="Edit" asp-controller="Competition" asp-route-competitionId="@item.Id" class="btn btn-primary">
+                                    Edit
+                                </a>
+                                <a asp-action="Details" asp-controller="Competition" asp-route-competitionId="@item.Id" class="btn btn-primary">
+                                    Details
+                                </a>
+                                <a asp-action="Delete" asp-controller="Competition" asp-route-competitionId="@item.Id" class="btn btn-primary">
+                                    Delete
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            }
+        </table>
+    </div>
+</div>
+

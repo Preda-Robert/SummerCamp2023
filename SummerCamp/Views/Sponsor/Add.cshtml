@@ -1,0 +1,15 @@
+﻿@using SummerCamp.Models
+@model SponsorViewModel
+@{
+    ViewData["Title"] = "Adauga sponsor";
+}
+
+<form id="myForm" asp-action="Add" method="post" class="needs-validation" novalidate>
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>

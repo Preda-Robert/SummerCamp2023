@@ -1,0 +1,46 @@
+﻿@using SummerCamp.Models
+@model TeamViewModel
+
+@{
+    ViewData["Title"] = "Teams";
+}
+
+<h1 class="centered-title">Players of team @Model.Name</h1>
+<div class="text-center">
+    <div class="table-responsive">
+        <table class="table table-bordered table-condensed table-striped table-hover sortable">
+            @if (Model.Players?.Count() == 0)
+            {
+                <tr>
+                    <td colspan="6">No Records found.</td>
+                </tr>
+            }
+            else
+            {
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Name</th>
+                        <th>Number</th>
+                        <th>Position</th>
+                        <th>Address</th>
+                        <th>BirthDate</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Players)
+                    {
+                            <tr>
+                                <td>@item.FullName</td>
+                                <td>@item.ShirtNumber</td>
+                                <td>@item.Position</td>
+                                <td>@item.Address</td>
+                            <td>@item.BirthDate.Date.ToShortDateString()</td>
+                            </tr>
+                       
+                    }
+                </tbody>
+            }
+        </table>
+    </div>
+</div>
+

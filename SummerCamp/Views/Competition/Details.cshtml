@@ -1,0 +1,54 @@
+﻿@using SummerCamp.Models
+@model CompetitionViewModel
+@{
+    ViewData["Title"] = "Competition";
+}
+<h1 class="centered-title">Matches of competition @Model.Name</h1>
+<input asp-for="Id" hidden />
+<a asp-controller="CompetitionMatch" asp-action="Add" asp-route-competitionId="@Model.Id" class="btn btn-primary">Add match</a>
+<div class="text-center">
+    <div class="table-responsive">
+        <table class="table table-bordered table-condensed table-striped table-hover sortable">
+            @if (Model.CompetitionMatches?.Count() == 0)
+            {
+                <tr>
+                    <td colspan="6">No Records found.</td>
+                </tr>
+            }
+            else
+            {
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Home team</th>
+                        <th>Goals</th>
+                        <th> </th>
+                        <th>Goals</th>
+                        <th>Away team</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.CompetitionMatches)
+                    {
+                        <tr>
+                            <td>@item.HomeTeam.Name</td>
+                            <td>@item.HomeTeamGoals</td>
+                            <td>-</td>
+                            <td>@item.AwayTeamGoals</td>
+                            <td>@item.AwayTeam.Name</td>
+
+                            <td>
+                                <a asp-action="Edit" asp-controller="CompetitionMatch" asp-route-competitionmatchId="@item.Id" class="btn btn-primary">
+                                    Edit
+                                </a>
+                                <a asp-action="Delete" asp-controller="CompetitionMatch" asp-route-competitionmatchId="@item.Id" class="btn btn-primary">
+                                    Delete
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            }
+        </table>
+    </div>
+</div>
+

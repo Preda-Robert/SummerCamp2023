@@ -1,0 +1,50 @@
+﻿@using SummerCamp.Models
+@model IEnumerable<CompetitionMatchViewModel>
+@{
+    ViewData["Title"] = "CompetitionMatches";
+}
+<h1 class="centered-title">CompetitionMatches</h1>
+<a asp-controller="CompetitionMatch" asp-action="Add" class="btn btn-primary">Add match to competition</a>
+<div class="text-center">
+    <div class="table-responsive">
+        <table class="table table-bordered table-condensed table-striped table-hover sortable">
+            @if (Model.Count() == 0)
+            {
+                <tr>
+                    <td colspan="6">No Records found.</td>
+                </tr>
+            }
+            else
+            {
+                <thead class="thead-dark">
+                    <tr>
+                        <th>HomeTeam</th>
+                        <th>HomeTeamGoals</th>
+                        <th>AwayTeam</th>
+                        <th>AwayTeamGoals</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.HomeTeam.Name</td>
+                            <td>@item.HomeTeamGoals</td>
+                            <td>@item.AwayTeam.Name</td>
+                            <td>@item.AwayTeamGoals</td>
+                            <td>
+                                <a asp-action="Edit" asp-controller="CompetitionMatch" asp-route-competitionmatchId="@item.Id" class="btn btn-primary">
+                                    Edit
+                                </a>
+                                <a asp-action="Delete" asp-controller="CompetitionMatch" asp-route-competitionmatchId="@item.Id" class="btn btn-primary">
+                                    Delete
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            }
+        </table>
+    </div>
+</div>
+

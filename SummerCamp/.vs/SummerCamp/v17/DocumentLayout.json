@@ -1,0 +1,771 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32D81CB5-C18E-4DD5-BA00-85F9D64A89FE}|..\\SummerCamp.DataAccessLayer\\SummerCamp.DataAccessLayer.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp.dataaccesslayer\\implementations\\competitionmatchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D81CB5-C18E-4DD5-BA00-85F9D64A89FE}|..\\SummerCamp.DataAccessLayer\\SummerCamp.DataAccessLayer.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp.dataaccesslayer\\implementations\\coachrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D81CB5-C18E-4DD5-BA00-85F9D64A89FE}|..\\SummerCamp.DataAccessLayer\\SummerCamp.DataAccessLayer.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp.dataaccesslayer\\implementations\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp\\controllers\\coachescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|solutionrelative:controllers\\coachescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp\\models\\coachviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|solutionrelative:models\\coachviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp\\infrastructure\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|solutionrelative:infrastructure\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57155377-347D-48C3-A76D-88E5D6F5090B}|..\\SummerCamp.DataModels\\SummerCamp.DataModels.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp.datamodels\\models\\coach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D81CB5-C18E-4DD5-BA00-85F9D64A89FE}|..\\SummerCamp.DataAccessLayer\\SummerCamp.DataAccessLayer.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp.dataaccesslayer\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D81CB5-C18E-4DD5-BA00-85F9D64A89FE}|..\\SummerCamp.DataAccessLayer\\SummerCamp.DataAccessLayer.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp.dataaccesslayer\\interfaces\\iplayerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D81CB5-C18E-4DD5-BA00-85F9D64A89FE}|..\\SummerCamp.DataAccessLayer\\SummerCamp.DataAccessLayer.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp.dataaccesslayer\\interfaces\\iteamsponsorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D81CB5-C18E-4DD5-BA00-85F9D64A89FE}|..\\SummerCamp.DataAccessLayer\\SummerCamp.DataAccessLayer.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp.dataaccesslayer\\interfaces\\iteamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D81CB5-C18E-4DD5-BA00-85F9D64A89FE}|..\\SummerCamp.DataAccessLayer\\SummerCamp.DataAccessLayer.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp.dataaccesslayer\\interfaces\\isponsorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D81CB5-C18E-4DD5-BA00-85F9D64A89FE}|..\\SummerCamp.DataAccessLayer\\SummerCamp.DataAccessLayer.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp.dataaccesslayer\\interfaces\\icompetitionmatchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D81CB5-C18E-4DD5-BA00-85F9D64A89FE}|..\\SummerCamp.DataAccessLayer\\SummerCamp.DataAccessLayer.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp.dataaccesslayer\\interfaces\\icompetitionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D81CB5-C18E-4DD5-BA00-85F9D64A89FE}|..\\SummerCamp.DataAccessLayer\\SummerCamp.DataAccessLayer.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp.dataaccesslayer\\interfaces\\icoachrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57155377-347D-48C3-A76D-88E5D6F5090B}|..\\SummerCamp.DataModels\\SummerCamp.DataModels.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp.datamodels\\enums\\positionenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp\\controllers\\competitionmatchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|solutionrelative:controllers\\competitionmatchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp\\controllers\\competitionteamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|solutionrelative:controllers\\competitionteamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57155377-347D-48C3-A76D-88E5D6F5090B}|..\\SummerCamp.DataModels\\SummerCamp.DataModels.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp.datamodels\\models\\sponsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp\\controllers\\teamsponsorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|solutionrelative:controllers\\teamsponsorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|solutionrelative:controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57155377-347D-48C3-A76D-88E5D6F5090B}|..\\SummerCamp.DataModels\\SummerCamp.DataModels.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp.datamodels\\models\\competition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|solutionrelative:controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp\\views\\competitionmatch\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|solutionrelative:views\\competitionmatch\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp\\views\\competition\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|solutionrelative:views\\competition\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp\\views\\player\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|solutionrelative:views\\player\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp\\views\\competition\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|solutionrelative:views\\competition\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp\\views\\competition\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|solutionrelative:views\\competition\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp\\views\\player\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|solutionrelative:views\\player\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp\\views\\player\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|solutionrelative:views\\player\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp\\views\\competition\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|solutionrelative:views\\competition\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp\\views\\competitionteam\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|solutionrelative:views\\competitionteam\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp\\models\\playerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|solutionrelative:models\\playerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp\\models\\competitionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|solutionrelative:models\\competitionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp\\models\\competitionteamviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|solutionrelative:models\\competitionteamviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp\\models\\competitionmatchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|solutionrelative:models\\competitionmatchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp\\models\\teamviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|solutionrelative:models\\teamviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp\\views\\team\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|solutionrelative:views\\team\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp\\controllers\\competitioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|solutionrelative:controllers\\competitioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp\\views\\competitionmatch\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|solutionrelative:views\\competitionmatch\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57155377-347D-48C3-A76D-88E5D6F5090B}|..\\SummerCamp.DataModels\\SummerCamp.DataModels.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp.datamodels\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D81CB5-C18E-4DD5-BA00-85F9D64A89FE}|..\\SummerCamp.DataAccessLayer\\SummerCamp.DataAccessLayer.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp.dataaccesslayer\\implementations\\competitionteamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D81CB5-C18E-4DD5-BA00-85F9D64A89FE}|..\\SummerCamp.DataAccessLayer\\SummerCamp.DataAccessLayer.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp.dataaccesslayer\\implementations\\competitionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp\\controllers\\sponsorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|solutionrelative:controllers\\sponsorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|c:\\users\\robert\\downloads\\summercamp\\summercamp\\views\\competitionmatch\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07A38A54-4A98-459D-A11C-496D3E7F9302}|SummerCamp.csproj|solutionrelative:views\\competitionmatch\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Infrastructure\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Infrastructure\\MappingProfile.cs",
+              "RelativeToolTip": "Infrastructure\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-12T14:12:19.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CoachRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataAccessLayer\\Implementations\\CoachRepository.cs",
+              "RelativeDocumentMoniker": "..\\SummerCamp.DataAccessLayer\\Implementations\\CoachRepository.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataAccessLayer\\Implementations\\CoachRepository.cs",
+              "RelativeToolTip": "..\\SummerCamp.DataAccessLayer\\Implementations\\CoachRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-29T19:52:43.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CoachViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Models\\CoachViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\CoachViewModel.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Models\\CoachViewModel.cs",
+              "RelativeToolTip": "Models\\CoachViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-19T08:25:05.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-10T22:59:38.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CoachesController.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Controllers\\CoachesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CoachesController.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Controllers\\CoachesController.cs",
+              "RelativeToolTip": "Controllers\\CoachesController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-19T07:45:28.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataAccessLayer\\Implementations\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "..\\SummerCamp.DataAccessLayer\\Implementations\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataAccessLayer\\Implementations\\GenericRepository.cs",
+              "RelativeToolTip": "..\\SummerCamp.DataAccessLayer\\Implementations\\GenericRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-29T19:54:03.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CompetitionMatchRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataAccessLayer\\Implementations\\CompetitionMatchRepository.cs",
+              "RelativeDocumentMoniker": "..\\SummerCamp.DataAccessLayer\\Implementations\\CompetitionMatchRepository.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataAccessLayer\\Implementations\\CompetitionMatchRepository.cs",
+              "RelativeToolTip": "..\\SummerCamp.DataAccessLayer\\Implementations\\CompetitionMatchRepository.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAowBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-19T06:42:28.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Coach.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataModels\\Models\\Coach.cs",
+              "RelativeDocumentMoniker": "..\\SummerCamp.DataModels\\Models\\Coach.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataModels\\Models\\Coach.cs",
+              "RelativeToolTip": "..\\SummerCamp.DataModels\\Models\\Coach.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-29T19:57:20.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ITeamSponsorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataAccessLayer\\Interfaces\\ITeamSponsorRepository.cs",
+              "RelativeDocumentMoniker": "..\\SummerCamp.DataAccessLayer\\Interfaces\\ITeamSponsorRepository.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataAccessLayer\\Interfaces\\ITeamSponsorRepository.cs",
+              "RelativeToolTip": "..\\SummerCamp.DataAccessLayer\\Interfaces\\ITeamSponsorRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-29T19:52:39.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataAccessLayer\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "..\\SummerCamp.DataAccessLayer\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataAccessLayer\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "..\\SummerCamp.DataAccessLayer\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-29T19:52:59.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ICompetitionMatchRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataAccessLayer\\Interfaces\\ICompetitionMatchRepository.cs",
+              "RelativeDocumentMoniker": "..\\SummerCamp.DataAccessLayer\\Interfaces\\ICompetitionMatchRepository.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataAccessLayer\\Interfaces\\ICompetitionMatchRepository.cs",
+              "RelativeToolTip": "..\\SummerCamp.DataAccessLayer\\Interfaces\\ICompetitionMatchRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-29T19:52:28.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PositionEnum.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataModels\\Enums\\PositionEnum.cs",
+              "RelativeDocumentMoniker": "..\\SummerCamp.DataModels\\Enums\\PositionEnum.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataModels\\Enums\\PositionEnum.cs",
+              "RelativeToolTip": "..\\SummerCamp.DataModels\\Enums\\PositionEnum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-17T23:19:45.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ICompetitionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataAccessLayer\\Interfaces\\ICompetitionRepository.cs",
+              "RelativeDocumentMoniker": "..\\SummerCamp.DataAccessLayer\\Interfaces\\ICompetitionRepository.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataAccessLayer\\Interfaces\\ICompetitionRepository.cs",
+              "RelativeToolTip": "..\\SummerCamp.DataAccessLayer\\Interfaces\\ICompetitionRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-10T22:55:31.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ICoachRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataAccessLayer\\Interfaces\\ICoachRepository.cs",
+              "RelativeDocumentMoniker": "..\\SummerCamp.DataAccessLayer\\Interfaces\\ICoachRepository.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataAccessLayer\\Interfaces\\ICoachRepository.cs",
+              "RelativeToolTip": "..\\SummerCamp.DataAccessLayer\\Interfaces\\ICoachRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-10T22:55:29.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IPlayerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataAccessLayer\\Interfaces\\IPlayerRepository.cs",
+              "RelativeDocumentMoniker": "..\\SummerCamp.DataAccessLayer\\Interfaces\\IPlayerRepository.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataAccessLayer\\Interfaces\\IPlayerRepository.cs",
+              "RelativeToolTip": "..\\SummerCamp.DataAccessLayer\\Interfaces\\IPlayerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-10T22:55:32.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TeamController.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Controllers\\TeamController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TeamController.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Controllers\\TeamController.cs",
+              "RelativeToolTip": "Controllers\\TeamController.cs",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-19T06:57:20.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ISponsorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataAccessLayer\\Interfaces\\ISponsorRepository.cs",
+              "RelativeDocumentMoniker": "..\\SummerCamp.DataAccessLayer\\Interfaces\\ISponsorRepository.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataAccessLayer\\Interfaces\\ISponsorRepository.cs",
+              "RelativeToolTip": "..\\SummerCamp.DataAccessLayer\\Interfaces\\ISponsorRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-10T22:55:33.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ITeamRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataAccessLayer\\Interfaces\\ITeamRepository.cs",
+              "RelativeDocumentMoniker": "..\\SummerCamp.DataAccessLayer\\Interfaces\\ITeamRepository.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataAccessLayer\\Interfaces\\ITeamRepository.cs",
+              "RelativeToolTip": "..\\SummerCamp.DataAccessLayer\\Interfaces\\ITeamRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-10T22:58:39.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CompetitionMatchController.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Controllers\\CompetitionMatchController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CompetitionMatchController.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Controllers\\CompetitionMatchController.cs",
+              "RelativeToolTip": "Controllers\\CompetitionMatchController.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAAAFUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-19T05:58:37.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Sponsor.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataModels\\Models\\Sponsor.cs",
+              "RelativeDocumentMoniker": "..\\SummerCamp.DataModels\\Models\\Sponsor.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataModels\\Models\\Sponsor.cs",
+              "RelativeToolTip": "..\\SummerCamp.DataModels\\Models\\Sponsor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-10T22:59:42.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CompetitionTeamController.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Controllers\\CompetitionTeamController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CompetitionTeamController.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Controllers\\CompetitionTeamController.cs",
+              "RelativeToolTip": "Controllers\\CompetitionTeamController.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAkwB0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-19T06:53:33.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TeamSponsorController.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Controllers\\TeamSponsorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TeamSponsorController.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Controllers\\TeamSponsorController.cs",
+              "RelativeToolTip": "Controllers\\TeamSponsorController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-19T07:22:54.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Competition.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataModels\\Models\\Competition.cs",
+              "RelativeDocumentMoniker": "..\\SummerCamp.DataModels\\Models\\Competition.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataModels\\Models\\Competition.cs",
+              "RelativeToolTip": "..\\SummerCamp.DataModels\\Models\\Competition.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-10T22:58:39.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Views\\Competition\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Competition\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Views\\Competition\\Details.cshtml",
+              "RelativeToolTip": "Views\\Competition\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-19T06:28:02.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Views\\Competition\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Competition\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Views\\Competition\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Competition\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-19T07:57:43.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Views\\Competition\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Competition\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Views\\Competition\\Index.cshtml",
+              "RelativeToolTip": "Views\\Competition\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-19T07:15:50.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Views\\Player\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Player\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Views\\Player\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Player\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-19T08:51:48.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Views\\Player\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Player\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Views\\Player\\Index.cshtml",
+              "RelativeToolTip": "Views\\Player\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-19T08:00:40.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Views\\CompetitionMatch\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\CompetitionMatch\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Views\\CompetitionMatch\\Index.cshtml",
+              "RelativeToolTip": "Views\\CompetitionMatch\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwB4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-19T06:14:05.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Controllers\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Controllers\\PlayerController.cs",
+              "RelativeToolTip": "Controllers\\PlayerController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-19T07:22:34.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Views\\Player\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\Player\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Views\\Player\\Add.cshtml",
+              "RelativeToolTip": "Views\\Player\\Add.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwCsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-19T08:51:04.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Views\\Competition\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\Competition\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Views\\Competition\\Add.cshtml",
+              "RelativeToolTip": "Views\\Competition\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-19T06:52:42.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CompetitionTeamViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Models\\CompetitionTeamViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\CompetitionTeamViewModel.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Models\\CompetitionTeamViewModel.cs",
+              "RelativeToolTip": "Models\\CompetitionTeamViewModel.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-19T07:15:17.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Views\\CompetitionTeam\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\CompetitionTeam\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Views\\CompetitionTeam\\Index.cshtml",
+              "RelativeToolTip": "Views\\CompetitionTeam\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-19T08:55:38.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CompetitionMatchViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Models\\CompetitionMatchViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\CompetitionMatchViewModel.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Models\\CompetitionMatchViewModel.cs",
+              "RelativeToolTip": "Models\\CompetitionMatchViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-19T06:13:50.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PlayerViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Models\\PlayerViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\PlayerViewModel.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Models\\PlayerViewModel.cs",
+              "RelativeToolTip": "Models\\PlayerViewModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAmwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-19T08:45:42.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-19T08:50:19.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CompetitionViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Models\\CompetitionViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\CompetitionViewModel.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Models\\CompetitionViewModel.cs",
+              "RelativeToolTip": "Models\\CompetitionViewModel.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAIwBAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-19T07:35:25.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Views\\Team\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\Team\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Views\\Team\\Add.cshtml",
+              "RelativeToolTip": "Views\\Team\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAACBjwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-19T08:47:24.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "TeamViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Models\\TeamViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\TeamViewModel.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Models\\TeamViewModel.cs",
+              "RelativeToolTip": "Models\\TeamViewModel.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-19T06:57:23.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CompetitionController.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Controllers\\CompetitionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CompetitionController.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Controllers\\CompetitionController.cs",
+              "RelativeToolTip": "Controllers\\CompetitionController.cs",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAqwJIAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-17T07:44:26.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CompetitionTeamRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataAccessLayer\\Implementations\\CompetitionTeamRepository.cs",
+              "RelativeDocumentMoniker": "..\\SummerCamp.DataAccessLayer\\Implementations\\CompetitionTeamRepository.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataAccessLayer\\Implementations\\CompetitionTeamRepository.cs",
+              "RelativeToolTip": "..\\SummerCamp.DataAccessLayer\\Implementations\\CompetitionTeamRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAnwAgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-19T06:40:09.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Views\\CompetitionMatch\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\CompetitionMatch\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Views\\CompetitionMatch\\Edit.cshtml",
+              "RelativeToolTip": "Views\\CompetitionMatch\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-19T06:54:39.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataModels\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "..\\SummerCamp.DataModels\\Models\\Player.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataModels\\Models\\Player.cs",
+              "RelativeToolTip": "..\\SummerCamp.DataModels\\Models\\Player.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-19T08:00:18.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CompetitionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataAccessLayer\\Implementations\\CompetitionRepository.cs",
+              "RelativeDocumentMoniker": "..\\SummerCamp.DataAccessLayer\\Implementations\\CompetitionRepository.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp.DataAccessLayer\\Implementations\\CompetitionRepository.cs",
+              "RelativeToolTip": "..\\SummerCamp.DataAccessLayer\\Implementations\\CompetitionRepository.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwBYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-19T06:42:42.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "SponsorController.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Controllers\\SponsorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SponsorController.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Controllers\\SponsorController.cs",
+              "RelativeToolTip": "Controllers\\SponsorController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-19T07:22:49.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-19T07:22:55.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Views\\CompetitionMatch\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\CompetitionMatch\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Robert\\Downloads\\SummerCamp\\SummerCamp\\Views\\CompetitionMatch\\Add.cshtml",
+              "RelativeToolTip": "Views\\CompetitionMatch\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-19T06:06:26.592Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

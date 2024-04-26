@@ -1,0 +1,151 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SummerCamp
+build_property.RootNamespace = SummerCamp
+build_property.ProjectDir = C:\Users\Robert\Downloads\SummerCamp\SummerCamp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Robert\Downloads\SummerCamp\SummerCamp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/Coaches/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29hY2hlc1xBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/Coaches/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29hY2hlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/Coaches/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29hY2hlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/CompetitionMatch/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGV0aXRpb25NYXRjaFxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/CompetitionMatch/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGV0aXRpb25NYXRjaFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/CompetitionMatch/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGV0aXRpb25NYXRjaFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/CompetitionTeam/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGV0aXRpb25UZWFtXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/CompetitionTeam/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGV0aXRpb25UZWFtXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/CompetitionTeam/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGV0aXRpb25UZWFtXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/Competition/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGV0aXRpb25cQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/Competition/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGV0aXRpb25cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/Competition/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGV0aXRpb25cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/Competition/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGV0aXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/Player/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/Player/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/Player/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/Sponsor/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvbnNvclxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/Sponsor/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvbnNvclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/Sponsor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvbnNvclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/TeamSponsor/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbVNwb25zb3JcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/TeamSponsor/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbVNwb25zb3JcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/TeamSponsor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbVNwb25zb3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/Team/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/Team/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/Team/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/Team/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbVxTaG93LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Downloads/SummerCamp/SummerCamp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-k87dh3ymxd
